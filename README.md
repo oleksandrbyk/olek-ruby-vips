@@ -14,7 +14,7 @@ in parallel from source to destination a section at a time.
 
 Because `ruby-vips` is parallel, it's quick, and because it doesn't need to
 keep entire images in memory, it's light.  For example, the benchmark at
-[vips-benchmarks](https://github.com/jcupitt/vips-benchmarks) loads a
+[vips-benchmarks](https://github.com/oleksandrbyk/olek-vips-benchmarks) loads a
 large image, crops, shrinks, sharpens and saves again, and repeats 10 times.
 
 ```text
@@ -29,9 +29,6 @@ benchmark	peak RES
 ruby-vips.rb	43864
 rmagick.rb	788768
 ```
-
-See also [benchmarks at the official libvips
-website](https://github.com/libvips/libvips/wiki/Speed-and-memory-use).
 
 ## Requirements
 
